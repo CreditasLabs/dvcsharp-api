@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM microsoft/dotnet:latest
 LABEL MAINTAINER "Appsecco"
 
 ENV ASPNETCORE_URLS=http://0.0.0.0:5000
