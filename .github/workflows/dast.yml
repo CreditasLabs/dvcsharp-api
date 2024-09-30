@@ -3,7 +3,7 @@ name: DAST with OWASP ZAP
 on:
   # Configure o gatilho para o workflow, por exemplo, em push na branch main
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   dast:
